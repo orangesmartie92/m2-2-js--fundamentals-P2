@@ -6,7 +6,7 @@ Look at [SETUP.md](SETUP.md) for the instructions.
 
 ## Workshop
 
-All of the exercise details are in the the exercise files.
+Each exercise file contains the question to answer, the puzzle to solve, what you need to achieve.
 
 ### Exercises 1 to 12
 
