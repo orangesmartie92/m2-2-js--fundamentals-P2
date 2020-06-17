@@ -1,5 +1,5 @@
 // Q12
-// Build on what you did for Q9.
+// Build on what you did for Q11.
 // This time the function should return a letter grade instead of the average.
 // Here is how I calculate the grades
 // <60 	is F
