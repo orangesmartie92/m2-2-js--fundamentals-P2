@@ -9,6 +9,7 @@
 // -----------------------------------------------------------------
 function countNames(fullName) {
   // complete the function
+  return fullName.split(" ");
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

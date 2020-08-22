@@ -1,7 +1,7 @@
 {
-  "name": "m2-1-js--fundamentals-p1",
+  "name": "m2-2-js--fundamentals-p2",
   "version": "1.0.0",
-  "description": "Today we will be learning the fundamentals of JavaScript!",
+  "description": "the fundamentals of JavaScript!",
   "main": "index.js",
   "scripts": {
     "test": "jest --noStackTrace"
