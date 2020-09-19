@@ -4,71 +4,18 @@
 
 ---
 
-## String Methods
+## Methods
 
-Methods have to be the most exciting part of JavaScript!
-
-- Methods are special functions that reference the values of the data stored in the object.
-- Methods are called with dot notation `object.method(arguments)`. _The period between object and method is the dot in dot notation._
-- Because ALL of the data types we've learned about are actually objects, they all have a bunch of built-in methods and special properties.
+What are methods?
 
 ---
 
-For example, all objects have `toString` and `valueOf` methods.
+## Common String Methods and Properties...
+
+---
 
 ```js
-let num = 3;
-num.toString();
-
-let bool = true;
-bool.toString();
-
-let str = "hello";
-str.toString();
-
-let arr = [1, 2, "three"];
-arr.toString();
-
-let dip = { value: 3 };
-dip.toString();
-```
-
-Let's look at the examples above again using `valueOf`.
-
----
-
-- When programming with JavaScript we don't generally care that booleans, numbers and functions are objects. Their methods aren't that useful most of the time.
-
-- The most helpful built-in methods are on strings and arrays.
-
-_We'll talk more about objects and their methods later when we talk about creating our own methods._
-
----
-
-## Common String Methods and Properties
-
-Strings have a bunch of methods and properties that will be immediately useful. 😉
-
-- `.length`
-- `.replace()`
-- `.slice()`
-- `.concat()`
-- `split()`
-- `indexOf()`
-
----
-
-📝 None of these methods **mutate** the string; strings are **immutable**.
-📝 They return a new version of the string which you can then work with as you like.
-
----
-
-### [`.length`](https://www.w3schools.com/jsreF/jsref_length_string.asp)
-
-`.length` is a property that holds the # of characters in the string.
-
-```js
-// Example
+// Example 1
 const sentiment = "I love programming";
 sentiment.length;
 ```
@@ -77,12 +24,8 @@ sentiment.length;
 
 ### [`.replace()`](https://www.w3schools.com/jsreF/jsref_replace.asp)
 
-The `.replace()` method replaces a specified value with another value in a string.
-
-It takes 2 parameters, the value to replace and the new value.
-
 ```js
-// Example
+// Example 2
 const food = "I love bacon";
 ```
 
@@ -90,12 +33,8 @@ const food = "I love bacon";
 
 ### [`.slice()`](https://www.w3schools.com/jsreF/jsref_slice_string.asp)
 
-`.slice()` extracts a part of a string and returns the extracted part in a new string.
-
-- The method takes 2 parameters: the start position, and the end position.
-
 ```js
-// Example
+// Example 3
 const sentence = "Bingo was his name.";
 ```
 
@@ -103,10 +42,8 @@ const sentence = "Bingo was his name.";
 
 ### [`.concat()`](https://www.w3schools.com/jsreF/jsref_concat_string.asp)
 
-The `.concat()` method is used to join two or more strings.
-
 ```js
-// Example
+// Example 4
 let partOne = "Do or do not.";
 let partTwo = "There is no try.";
 ```
@@ -115,10 +52,8 @@ let partTwo = "There is no try.";
 
 ### [`.split()`](https://www.w3schools.com/jsreF/jsref_split.asp)
 
-The `.split()` method "split" a string into an array of _substrings_.
-
 ```js
-// Example
+// Example 5
 const truth = "The greatest teacher, failure is.";
 ```
 
@@ -126,17 +61,13 @@ const truth = "The greatest teacher, failure is.";
 
 ### [`.indexOf()`](https://www.w3schools.com/jsreF/jsref_indexof.asp)
 
-The `.indexOf()` method returns the position of the first occurrence of a specified value in a string.
-
-This method returns -1 if the value to search for never occurs.
-
 ```js
-// Example
+// Example 6
 let yodaSpeak =
   "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.";
 ```
 
-_Why would JavaScript decide to return `-1` instead of some other value? like `0`?_
+🤔 Why does JavaScript decide to return `-1` instead of some other value? like `0`?
 
 ---
 
@@ -146,8 +77,6 @@ Turn an input string into another string
 
 ---
 
-<Timer initialTime={2} />
-
 ```js
 const longSentence = "I am a really long sentence, look how many words I have!";
 
@@ -155,8 +84,6 @@ const longSentence = "I am a really long sentence, look how many words I have!";
 ```
 
 ---
-
-<Timer initialTime={2} />
 
 ```js
 const greeting = "Hi World!";
@@ -166,8 +93,6 @@ const greeting = "Hi World!";
 
 ---
 
-<Timer initialTime={2} />
-
 ```js
 const age = "I am 23 years old!";
 
@@ -176,16 +101,8 @@ const age = "I am 23 years old!";
 
 ---
 
-<Timer initialTime={4} />
-
 ```js
 const ask = "How are you today?";
 
 // output: ["how", "are", "you", "yesterday?"]
 ```
-
----
-
-## More String Methods here...
-
-https://www.w3schools.com/jsreF/jsref_obj_string.asp

@@ -1,6 +1,3 @@
-import mdxTheme from '../../theme';
-export const theme = mdxTheme;
-
 # JavaScript Array methods P2
 
 ---
@@ -23,8 +20,7 @@ The `.forEach()` method calls a function once for every element of the array.
 
 ```js
 // Example
-let words = ['The', 'large', 'shaggy', 'dog', 'barked', 'at', 'the', 'silence'];
-
+let words = ["The", "large", "shaggy", "dog", "barked", "at", "the", "silence"];
 ```
 
 ---
@@ -35,8 +31,7 @@ The `.map()` method calls the provided function once for every element in the ar
 
 ```js
 // Example
-let words = ['The', 'large', 'shaggy', 'dog', 'barked', 'at', 'the', 'silence'];
-
+let words = ["The", "large", "shaggy", "dog", "barked", "at", "the", "silence"];
 ```
 
 ---
@@ -47,8 +42,7 @@ The `.filter()` method returns a new array with the values that meet the require
 
 ```js
 // Example
-let words = ['The', 'large', 'shaggy', 'dog', 'barked', 'at', 'the', 'silence'];
-
+let words = ["The", "large", "shaggy", "dog", "barked", "at", "the", "silence"];
 ```
 
 ---
@@ -61,8 +55,7 @@ It returns `true` or `false`.
 
 ```js
 // Example
-let words = ['The', 'large', 'shaggy', 'dog', 'barked', 'at', 'the', 'silence'];
-
+let words = ["The", "large", "shaggy", "dog", "barked", "at", "the", "silence"];
 ```
 
 ---
