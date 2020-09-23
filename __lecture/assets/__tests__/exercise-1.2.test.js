@@ -1,4 +1,4 @@
-const arrOFNames = require("../../../workshop/exercise-1.2");
+const arrOFNames = require("../../../__workshop/exercise-1.2");
 
 test("Exercise 1.2", () => {
   expect(arrOFNames("a, b, c, d, e, f, g")).toStrictEqual([

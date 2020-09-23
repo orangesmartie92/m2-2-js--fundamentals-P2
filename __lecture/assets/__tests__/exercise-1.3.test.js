@@ -1,4 +1,4 @@
-const characterCount = require("../../../workshop/exercise-1.3");
+const characterCount = require("../../../__workshop/exercise-1.3");
 
 test("Exercise 1.3", () => {
   expect(characterCount("wubba lubba dub dub")).toBe(19);

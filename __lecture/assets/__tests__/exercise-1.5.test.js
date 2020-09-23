@@ -1,4 +1,4 @@
-const decodeMessage = require("../../../workshop/exercise-1.5");
+const decodeMessage = require("../../../__workshop/exercise-1.5");
 
 test("Exercise 1.5", () => {
   expect(decodeMessage("I anotm tbaconhe walrus.", ["not", "bacon"])).toBe(

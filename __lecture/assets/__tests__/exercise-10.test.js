@@ -1,4 +1,4 @@
-const allLong = require("../../../workshop/exercise-10");
+const allLong = require("../../../__workshop/exercise-10");
 
 test("Exercise 10", () => {
   expect(allLong(["Scott", "Bob", "Ric", "Jim"])).toBe(false);

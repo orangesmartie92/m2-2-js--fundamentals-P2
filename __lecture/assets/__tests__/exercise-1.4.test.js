@@ -1,4 +1,4 @@
-const removeMiddleName = require("../../../workshop/exercise-1.4");
+const removeMiddleName = require("../../../__workshop/exercise-1.4");
 
 test("Exercise 1.4", () => {
   expect(removeMiddleName("Morty Antoine Smith")).toBe("Morty Smith");

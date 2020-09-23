@@ -1,4 +1,4 @@
-const removeEvens = require("../../../workshop/exercise-6");
+const removeEvens = require("../../../__workshop/exercise-6");
 
 test("Exercise 6", () => {
   expect(removeEvens([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toStrictEqual([

@@ -1,4 +1,4 @@
-const filterNonUnique = require("../../../workshop/exercise-15");
+const filterNonUnique = require("../../../__workshop/exercise-15");
 
 test("Exercise 15", () => {
   expect(filterNonUnique([1, 2, 3, 3, 4, 5, 6, 7, 7, 8])).toStrictEqual([

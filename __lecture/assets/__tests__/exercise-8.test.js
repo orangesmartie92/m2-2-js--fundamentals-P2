@@ -1,4 +1,4 @@
-const greet = require("../../../workshop/exercise-8");
+const greet = require("../../../__workshop/exercise-8");
 
 test("Exercise 8", () => {
   expect(greet(["David", "Billy", "Lisa", "Jennifer"])).toStrictEqual([

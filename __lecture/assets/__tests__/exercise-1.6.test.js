@@ -1,4 +1,4 @@
-const removeStringFromArray = require("../../../workshop/exercise-1.6");
+const removeStringFromArray = require("../../../__workshop/exercise-1.6");
 
 test("Exercise 1.6", () => {
   expect(

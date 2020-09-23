@@ -1,4 +1,4 @@
-const findNumbers = require("../../../workshop/exercise-16");
+const findNumbers = require("../../../__workshop/exercise-16");
 
 test("Exercise 16", () => {
   expect(findNumbers(0, 1000)).toStrictEqual([0, 1, 153, 370, 371, 407]);

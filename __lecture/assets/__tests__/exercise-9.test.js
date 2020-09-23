@@ -1,4 +1,4 @@
-const greetLong = require("../../../workshop/exercise-9");
+const greetLong = require("../../../__workshop/exercise-9");
 
 test("Exercise 9", () => {
   expect(greetLong(["Scott", "Bob", "Ric", "Jim"])).toStrictEqual([

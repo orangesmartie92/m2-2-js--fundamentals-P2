@@ -1,4 +1,4 @@
-const countBs = require("../../../workshop/exercise-13");
+const countBs = require("../../../__workshop/exercise-13");
 
 test("Exercise 13", () => {
   expect(countBs("BananaBabyBubbles")).toBe(3);

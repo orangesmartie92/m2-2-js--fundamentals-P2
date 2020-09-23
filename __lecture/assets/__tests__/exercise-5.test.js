@@ -1,4 +1,4 @@
-const itemIsPresent = require("../../../workshop/exercise-5");
+const itemIsPresent = require("../../../__workshop/exercise-5");
 
 test("Exercise 5", () => {
   expect(itemIsPresent([1, 2, 3, 4, 5], 2)).toBe(true);

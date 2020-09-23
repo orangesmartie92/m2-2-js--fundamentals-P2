@@ -1,4 +1,4 @@
-const calculateAverage = require("../../../workshop/exercise-11");
+const calculateAverage = require("../../../__workshop/exercise-11");
 
 test("Exercise 11", () => {
   expect(calculateAverage([76, 60, 83, 100, 78])).toBe(79);

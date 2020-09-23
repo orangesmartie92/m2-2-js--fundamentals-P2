@@ -1,4 +1,4 @@
-const getLetterGrade = require("../../../workshop/exercise-12");
+const getLetterGrade = require("../../../__workshop/exercise-12");
 
 test("Exercise 12", () => {
   expect(getLetterGrade([48, 95, 65, 48, 59, 78, 72, 65])).toBe("D");

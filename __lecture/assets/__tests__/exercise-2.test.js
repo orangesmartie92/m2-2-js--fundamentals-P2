@@ -1,4 +1,4 @@
-const getMax = require("../../../workshop/exercise-2");
+const getMax = require("../../../__workshop/exercise-2");
 
 test("Exercise 2", () => {
   expect(getMax(12, 9)).toBe(12);

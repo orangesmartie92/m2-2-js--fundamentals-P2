@@ -1,4 +1,4 @@
-const keepLong = require("../../../workshop/exercise-7");
+const keepLong = require("../../../__workshop/exercise-7");
 
 test("Exercise 7", () => {
   expect(
