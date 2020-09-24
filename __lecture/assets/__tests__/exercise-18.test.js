@@ -1,4 +1,4 @@
-const map = require("../../../__solution/exercise-18");
+const map = require("../../../__workshop/exercise-18");
 
 test("Exercise 18", () => {
   expect(map(["Rick", "Morty"], (x) => x.toUpperCase())).toStrictEqual([
