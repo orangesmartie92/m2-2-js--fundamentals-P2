@@ -19,8 +19,35 @@
 //
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
+function getSumOfNumbers(args){
+  return args.reduce((prev, curr) => prev + curr, 0);
+}
+
+function extractSingleDigitsIntoArray(number){
+  const stringifiedNumber = `${number}`;
+  return stringifiedNumber.split('').map(strNum => parseInt(strNum));
+}
+
+function baseToThePower(base, power){
+  return Math.pow(base, power);
+}
+function findArmstrongNumber(num){
+  const numbers = extractSingleDigitsIntoArray(num);
+  const numbersPowered = numbers.map(number => baseToThePower(number, `${num}`.length));
+  const sumOfNumbersPowered = getSumOfNumbers(numbersPowered);
+  return sumOfNumbersPowered === num && num;
+}
+
 function findArmstrongNumbers(num1, num2) {
   // num1 and num2 are Numbers
+  const filteredNumbers = [];
+  for(let i=num1; i<= num2; i++){
+    const numberFound = findArmstrongNumber(i);
+    if(Number.isInteger(numberFound)){
+      filteredNumbers.push(numberFound);
+    }
+  }
+  return filteredNumbers;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

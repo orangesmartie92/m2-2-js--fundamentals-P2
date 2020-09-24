@@ -17,6 +17,13 @@
 function every(arr, func) {
   // arr is an array and f is a function
   // func takes 1 argument and returns a boolean
+  for(let i = 0; i< arr.length; i++){
+    const resolvesTrue = func(arr[i], i);
+    if(!resolvesTrue){
+      return false;
+    }
+  }
+  return true;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

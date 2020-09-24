@@ -1,4 +1,4 @@
-const filter = require("../../../__solution/exercise-19");
+const filter = require("../../../__workshop/exercise-19");
 
 test("Exercise 18", () => {
   expect(

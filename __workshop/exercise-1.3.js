@@ -4,12 +4,13 @@
 // and returns the character-count of that string. (include spaces)
 //
 // Example:
-// characterCount("ab c def") should return 6
+// characterCount("ab c def") should return 8
 //
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
 function characterCount(string) {
   // complete the function
+  return string.length;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

@@ -1,4 +1,4 @@
-const every = require("../../../__solution/exercise-20");
+const every = require("../../../__workshop/exercise-20");
 
 test("Exercise 20", () => {
   expect(every(["Robin", "Bob", "Ric", "Jim"], (x) => x.length > 4)).toBe(

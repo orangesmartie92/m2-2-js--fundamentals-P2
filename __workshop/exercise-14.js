@@ -9,6 +9,8 @@
 // -----------------------------------------------------------------
 function countChar(str, char) {
   // str and char are both strings
+  return str.split('').filter(character => character === char).length;
+  // return (str.match(new RegExp(char, 'g')) || []).length; works too
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

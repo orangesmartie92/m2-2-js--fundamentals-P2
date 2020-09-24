@@ -14,6 +14,18 @@
 // -----------------------------------------------------------------
 function decodeMessage(string, notCode) {
   // complete the function
+  // let decodedMessage = string;
+  // notCodeArr.forEach((notCode)=>{
+  //   decodedMessage = decodedMessage.replace(new RegExp(notCode, 'g'), '');
+  // });
+  // return decodedMessage;
+
+    // complete the function
+    let message = string;
+    for (let i = 0; i < notCode.length; i++) {
+      message = message.replace(notCode[i], "");
+    }
+    return message;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
@@ -25,7 +37,7 @@ function decodeMessage(string, notCode) {
 console.log(decodeMessage("I anotm tbaconhe walrus.", ["not", "bacon"]));
 console.log(
   decodeMessage(
-    "summerlobaconokfamily ascaryt mintergalactice, I'jerrym Pimortybethckle Rick!",
+    "summerlobaconokfamilyjerry ascaryt mintergalactice, I'jerrym Pimortybethckle Rick!",
     [
       "summer",
       "bacon",

@@ -21,6 +21,11 @@
 // -----------------------------------------------------------------
 function map(arr, func) {
   // arr is an array and func is a function
+  const newArr = [];
+  for(let i = 0; i< arr.length; i++){
+    newArr.push(func(arr[i], i))
+  }
+  return newArr;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

@@ -10,6 +10,7 @@
 // -----------------------------------------------------------------
 function greetLong(list) {
   // list is an array of strings
+  return list.filter(item=> item.length >= 4).map(item => `Hello ${item}`);
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
